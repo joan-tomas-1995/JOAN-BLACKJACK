@@ -1,0 +1,108 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* RESET CSS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* GENERAL CSS */
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/tapete\ cartas.jpg);
+}
+
+
+.titulo {
+  font-size: 40px;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px rgb(81, 101, 255);
+}
+
+
+.container-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: green;
+  min-width: 250px;
+  margin: 15px;
+  padding: 60px;
+  height: 60%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px;
+}
+
+p{
+  font-size: 22px;
+}
+
+
+.btn {
+    font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 12px;
+  box-shadow: 2px 2px 6px;
+  transition: all .01s ease;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
