@@ -106,3 +106,7 @@ p{
 .btn:active {
   transform: scale(0.98);
 }
+
+.corazon .rombo {
+  color: #ff0000;
+}
